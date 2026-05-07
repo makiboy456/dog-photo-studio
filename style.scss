@@ -1,0 +1,18 @@
+$main-color: #ff6b6b;
+
+body {
+  font-family: Arial;
+}
+
+h2 {
+  color: $main-color;
+  margin-bottom: 20px;
+}
+
+img {
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
